@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS users (
   user_id TEXT PRIMARY KEY,
   first_name TEXT NOT NULL,
   last_name TEXT NOT NULL,
+  age INTEGER CHECK (age BETWEEN 5 AND 120),
   gender TEXT,
   education_level TEXT,
   favorite_subject_1 TEXT,

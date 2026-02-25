@@ -52,6 +52,7 @@ async function ensureUsersRiasecProfileNullable(db) {
         user_id TEXT PRIMARY KEY,
         first_name TEXT NOT NULL,
         last_name TEXT NOT NULL,
+        age INTEGER CHECK (age BETWEEN 5 AND 120),
         gender TEXT,
         education_level TEXT,
         favorite_subject_1 TEXT,
@@ -97,6 +98,11 @@ export async function runMigrations() {
   const schemaSql = fs.readFileSync(SCHEMA_FILE, 'utf8');
   await db.exec(schemaSql);
   await ensureUsersRiasecProfileNullable(db);
+  const usersColumns = await db.all('PRAGMA table_info(users)');
+  const ageColumn = usersColumns.find((column) => column.name === 'age');
+  if (!ageColumn) {
+    await db.exec('ALTER TABLE users ADD COLUMN age INTEGER CHECK (age BETWEEN 5 AND 120);');
+  }
 }
 
 export async function withTransaction(task) {

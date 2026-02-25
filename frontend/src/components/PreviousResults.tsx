@@ -72,8 +72,8 @@ export const PreviousResults = ({ userName, results, onRefresh, onSignOut }: Pre
                     <span>{formatDate(item.createdAt)}</span>
                   </div>
                   <div>
-                    <p>Top match: {topMatch}</p>
-                    <p>Chosen major: {chosenForItem}</p>
+                    <p>Ən uyğun ixtisas: {topMatch}</p>
+                    <p>Seçilmiş ixtisas: {chosenForItem}</p>
                     <span className="score-value">Score: {typeof topScore === 'number' ? topScore.toFixed(3) : '-'}</span>
                   </div>
                 </li>

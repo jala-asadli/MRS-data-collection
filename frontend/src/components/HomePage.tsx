@@ -9,7 +9,7 @@ interface HomePageProps {
   user?: UserProfile | null;
 }
 export const HomePage = ({ user = null }: HomePageProps) => {
-  const startTestPath = user ? '/pre-quiz' : '/register';
+  const startTestPath = user ? '/pre-quiz' : '/login';
 
   return (
     <section className="home-page-shell home home-new-page" id="esas-sehife">

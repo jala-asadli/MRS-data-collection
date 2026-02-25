@@ -160,7 +160,7 @@ export const ResetPasswordPage = () => {
         </section>
       </div>
 
-      <Footer startTestPath="/register" />
+      <Footer startTestPath="/login" />
     </section>
   );
 };

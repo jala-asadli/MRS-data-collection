@@ -168,7 +168,7 @@ export const App = () => {
     }
     setPreviousResults(normalizedResults);
     setResult(null);
-    navigate(normalizedResults.length > 0 ? '/profile' : '/');
+    navigate('/pre-quiz');
   };
 
   const handleComplete = useCallback(
@@ -216,6 +216,15 @@ export const App = () => {
     }
     await loadResultsForUser(user.id);
   }, [loadResultsForUser, user?.id]);
+
+  useEffect(() => {
+    if (location.pathname !== '/results' || !user?.id) {
+      return;
+    }
+    refreshResults().catch(() => {
+      // Keep current result list if refresh fails.
+    });
+  }, [location.pathname, refreshResults, user?.id]);
 
   const handleSaveSettings = useCallback(
     async (payload: ProfileSettings & { name: string; surname: string }) => {
@@ -271,7 +280,6 @@ export const App = () => {
   const isHomeRoute = location.pathname === '/';
   const isAuthRoute =
     location.pathname === '/login' ||
-    location.pathname === '/register' ||
     location.pathname === '/forgot-password' ||
     location.pathname === '/reset-password';
   const isAccountRoute = location.pathname === '/account';
@@ -296,9 +304,11 @@ export const App = () => {
         <Route
           path="/login"
           element={
-            <PublicOnlyRoute user={user}>
+            user ? (
+              <Navigate to="/pre-quiz" replace />
+            ) : (
               <LoginForm onSuccess={handleLoginSuccess} onNavigateHome={() => navigate('/')} />
-            </PublicOnlyRoute>
+            )
           }
         />
 
@@ -306,7 +316,7 @@ export const App = () => {
           path="/register"
           element={
             <PublicOnlyRoute user={user}>
-              <LoginForm onSuccess={handleLoginSuccess} onNavigateHome={() => navigate('/')} />
+              <Navigate to="/login" replace />
             </PublicOnlyRoute>
           }
         />
@@ -342,7 +352,7 @@ export const App = () => {
           path="/pre-quiz"
           element={
             <ProtectedRoute user={user}>
-              {previousResults.length > 0 ? <Navigate to="/profile" replace /> : <PreQuizPage user={user as UserProfile} />}
+              <PreQuizPage user={user as UserProfile} />
             </ProtectedRoute>
           }
         />

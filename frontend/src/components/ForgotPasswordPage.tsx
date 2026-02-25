@@ -83,7 +83,7 @@ export const ForgotPasswordPage = () => {
         </section>
       </div>
 
-      <Footer startTestPath="/register" />
+      <Footer startTestPath="/login" />
     </section>
   );
 };

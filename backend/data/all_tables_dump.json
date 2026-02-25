@@ -1,0 +1,459 @@
+{
+  "sqlite_sequence": [
+    {
+      "name": "user_major_recommendations",
+      "seq": 22
+    },
+    {
+      "name": "tx_test",
+      "seq": 12
+    }
+  ],
+  "tx_test": [],
+  "user_item_responses": [
+    {
+      "response_id": "H9YQDV_Q01",
+      "user_id": "H9YQDV",
+      "question_id": "Q01",
+      "options": "R,I,A",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q02",
+      "user_id": "H9YQDV",
+      "question_id": "Q02",
+      "options": "S,E,C",
+      "chosen_code": "S",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q03",
+      "user_id": "H9YQDV",
+      "question_id": "Q03",
+      "options": "R,S,E",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q04",
+      "user_id": "H9YQDV",
+      "question_id": "Q04",
+      "options": "I,A,C",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q05",
+      "user_id": "H9YQDV",
+      "question_id": "Q05",
+      "options": "R,E,C",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q06",
+      "user_id": "H9YQDV",
+      "question_id": "Q06",
+      "options": "I,S,A",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q07",
+      "user_id": "H9YQDV",
+      "question_id": "Q07",
+      "options": "R,A,S",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q08",
+      "user_id": "H9YQDV",
+      "question_id": "Q08",
+      "options": "I,C,E",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q09",
+      "user_id": "H9YQDV",
+      "question_id": "Q09",
+      "options": "R,I,C",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q10",
+      "user_id": "H9YQDV",
+      "question_id": "Q10",
+      "options": "A,S,E",
+      "chosen_code": "A",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q11",
+      "user_id": "H9YQDV",
+      "question_id": "Q11",
+      "options": "R,S,C",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q12",
+      "user_id": "H9YQDV",
+      "question_id": "Q12",
+      "options": "I,A,E",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q13",
+      "user_id": "H9YQDV",
+      "question_id": "Q13",
+      "options": "R,A,E",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q14",
+      "user_id": "H9YQDV",
+      "question_id": "Q14",
+      "options": "I,S,C",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q15",
+      "user_id": "H9YQDV",
+      "question_id": "Q15",
+      "options": "R,I,S",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q16",
+      "user_id": "H9YQDV",
+      "question_id": "Q16",
+      "options": "A,E,C",
+      "chosen_code": "A",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q17",
+      "user_id": "H9YQDV",
+      "question_id": "Q17",
+      "options": "R,C,A",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q18",
+      "user_id": "H9YQDV",
+      "question_id": "Q18",
+      "options": "I,E,S",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q19",
+      "user_id": "H9YQDV",
+      "question_id": "Q19",
+      "options": "R,E,A",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q20",
+      "user_id": "H9YQDV",
+      "question_id": "Q20",
+      "options": "I,C,S",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q21",
+      "user_id": "H9YQDV",
+      "question_id": "Q21",
+      "options": "R,S,A",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q22",
+      "user_id": "H9YQDV",
+      "question_id": "Q22",
+      "options": "I,E,C",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q23",
+      "user_id": "H9YQDV",
+      "question_id": "Q23",
+      "options": "R,A,I",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q24",
+      "user_id": "H9YQDV",
+      "question_id": "Q24",
+      "options": "S,C,E",
+      "chosen_code": "S",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q25",
+      "user_id": "H9YQDV",
+      "question_id": "Q25",
+      "options": "R,C,S",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q26",
+      "user_id": "H9YQDV",
+      "question_id": "Q26",
+      "options": "I,A,S",
+      "chosen_code": "I",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q27",
+      "user_id": "H9YQDV",
+      "question_id": "Q27",
+      "options": "R,E,I",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q28",
+      "user_id": "H9YQDV",
+      "question_id": "Q28",
+      "options": "A,C,E",
+      "chosen_code": "A",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q29",
+      "user_id": "H9YQDV",
+      "question_id": "Q29",
+      "options": "R,S,I",
+      "chosen_code": "R",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "response_id": "H9YQDV_Q30",
+      "user_id": "H9YQDV",
+      "question_id": "Q30",
+      "options": "A,E,C",
+      "chosen_code": "A",
+      "chosen_position": 1,
+      "response_time_sec": 0.01,
+      "created_at": "2026-02-19 08:54:46"
+    }
+  ],
+  "user_major_recommendations": [
+    {
+      "id": 12,
+      "user_id": "H9YQDV",
+      "major_name": "Balıqçılıq",
+      "recommendation_rank": 1,
+      "recommendation_score": 2.5,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 13,
+      "user_id": "H9YQDV",
+      "major_name": "Biologiya",
+      "recommendation_rank": 2,
+      "recommendation_score": 2,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 14,
+      "user_id": "H9YQDV",
+      "major_name": "Fizika",
+      "recommendation_rank": 3,
+      "recommendation_score": 2,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 15,
+      "user_id": "H9YQDV",
+      "major_name": "Mühəndislik fizikası",
+      "recommendation_rank": 4,
+      "recommendation_score": 2,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 16,
+      "user_id": "H9YQDV",
+      "major_name": "Memarlıq",
+      "recommendation_rank": 5,
+      "recommendation_score": 1.83,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 17,
+      "user_id": "H9YQDV",
+      "major_name": "Tarix",
+      "recommendation_rank": 6,
+      "recommendation_score": 4,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 18,
+      "user_id": "H9YQDV",
+      "major_name": "Adaptiv bədən tərbiyəsi",
+      "recommendation_rank": 7,
+      "recommendation_score": 1.75,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 19,
+      "user_id": "H9YQDV",
+      "major_name": "Baytarlıq təbabəti",
+      "recommendation_rank": 8,
+      "recommendation_score": 1.75,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 20,
+      "user_id": "H9YQDV",
+      "major_name": "Fizioterapiya",
+      "recommendation_rank": 9,
+      "recommendation_score": 1.75,
+      "created_at": "2026-02-19 08:54:46"
+    },
+    {
+      "id": 21,
+      "user_id": "H9YQDV",
+      "major_name": "Heyvandarlıq",
+      "recommendation_rank": 10,
+      "recommendation_score": 1.75,
+      "created_at": "2026-02-19 08:54:46"
+    }
+  ],
+  "users": [
+    {
+      "user_id": "H9YQDV",
+      "first_name": "Unknown",
+      "last_name": "Unknown",
+      "gender": "female",
+      "education_level": "Tam orta təhsil",
+      "favorite_subject_1": "Riyaziyyat",
+      "favorite_subject_2": "Fizika",
+      "R_score": 15,
+      "I_score": 9,
+      "A_score": 4,
+      "S_score": 2,
+      "E_score": 0,
+      "C_score": 0,
+      "riasec_profile": "RIASCE",
+      "chosen_major": "Tarix",
+      "satisfaction_score": 4,
+      "created_at": "2026-02-19T08:34:43.448Z",
+      "age": null
+    },
+    {
+      "user_id": "T7Z5S8",
+      "first_name": "Nigar",
+      "last_name": "Nazarli",
+      "gender": "female",
+      "education_level": "Orta təhsil",
+      "favorite_subject_1": "Fizika",
+      "favorite_subject_2": "Riyaziyyat",
+      "R_score": 0,
+      "I_score": 0,
+      "A_score": 0,
+      "S_score": 0,
+      "E_score": 0,
+      "C_score": 0,
+      "riasec_profile": "RIASEC",
+      "chosen_major": null,
+      "satisfaction_score": null,
+      "created_at": "2026-02-19T09:33:02.865Z",
+      "age": 17
+    },
+    {
+      "user_id": "8VQ6AH",
+      "first_name": "Test",
+      "last_name": "User",
+      "gender": null,
+      "education_level": null,
+      "favorite_subject_1": null,
+      "favorite_subject_2": null,
+      "R_score": 0,
+      "I_score": 0,
+      "A_score": 0,
+      "S_score": 0,
+      "E_score": 0,
+      "C_score": 0,
+      "riasec_profile": "RIASEC",
+      "chosen_major": null,
+      "satisfaction_score": null,
+      "created_at": "2026-02-25T16:29:39.445Z",
+      "age": null
+    }
+  ]
+}

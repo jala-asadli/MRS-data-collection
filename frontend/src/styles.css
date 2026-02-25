@@ -260,6 +260,13 @@ img {
   color: #0f172a;
 }
 
+.quiz-test-card .option-brief {
+  margin: 0.55rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: #475569;
+}
+
 .quiz-test-footer {
   border-top: 1px solid #e5e7eb;
   padding-top: 1.15rem;

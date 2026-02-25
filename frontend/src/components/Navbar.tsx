@@ -95,13 +95,7 @@ export const Navbar = ({ isAuthenticated, avatarSource = '', onLogout }: NavbarP
                   to="/login"
                   className="home-modern-auth-link home-modern-auth-link-login"
                 >
-                  Daxil ol
-                </Link>
-                <Link
-                  to="/register"
-                  className="home-modern-auth-link home-modern-auth-link-register"
-                >
-                  Qeydiyyatdan keç
+                  Testə başla
                 </Link>
               </>
             ) : (
@@ -124,14 +118,8 @@ export const Navbar = ({ isAuthenticated, avatarSource = '', onLogout }: NavbarP
 
                 {menuOpen && (
                   <div className="profile-menu-list" role="menu">
-                    <Link to="/profilim" className="profile-menu-item" role="menuitem" onClick={() => setMenuOpen(false)}>
-                      Profilim
-                    </Link>
                     <Link to="/results" className="profile-menu-item" role="menuitem" onClick={() => setMenuOpen(false)}>
                       Nəticələrim
-                    </Link>
-                    <Link to="/pre-quiz" className="profile-menu-item" role="menuitem" onClick={() => setMenuOpen(false)}>
-                      Testə başla
                     </Link>
                     <div className="profile-menu-divider" aria-hidden="true" />
                     <button
@@ -182,14 +170,7 @@ export const Navbar = ({ isAuthenticated, avatarSource = '', onLogout }: NavbarP
                     className="home-modern-mobile-link home-modern-mobile-link-login"
                     onClick={() => setMobileNavOpen(false)}
                   >
-                    Daxil ol
-                  </Link>
-                  <Link
-                    to="/register"
-                    className="home-modern-mobile-link home-modern-mobile-link-register"
-                    onClick={() => setMobileNavOpen(false)}
-                  >
-                    Qeydiyyatdan keç
+                    Testə başla
                   </Link>
                 </>
               ) : (
