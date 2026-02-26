@@ -19,13 +19,13 @@ import { runMigrations, getDb, withTransaction } from './db.js';
 import { countUserRecords } from './models/usersModel.js';
 import { saveQuizSubmission } from './services/quizPersistenceService.js';
 import { initAuthStore } from './authStore.js';
+import { Console } from 'console';
 
 dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const PORT = process.env.PORT || 5001;
-const HOST = process.env.HOST || '127.0.0.1';
 const normalizeText = (value) => (typeof value === 'string' ? value.trim() : '');
 
 const app = express();
@@ -589,3 +589,7 @@ bootstrap().catch((error) => {
   console.error('Server bootstrap failed:', error);
   process.exit(1);
 });
+app.listen(PORT, () => {
+  console.log('RIASEC backend running on ${PORT}');
+});
+
