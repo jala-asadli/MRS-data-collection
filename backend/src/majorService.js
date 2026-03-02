@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 const MAJORS_FILE = path.resolve(__dirname, '../majors_backend.xlsx');
 
 let cachedMajors = [];
-const PROFILE_WEIGHTS = [1, 1 / 2, 1 / 3, 1 / 4, 1 / 5, 1 / 6];
+const PROFILE_WEIGHTS = [1, 1 / 2, 1 / 4, 1 / 8, 1 / 16, 1 / 32];
 
 export function loadMajorsFromWorkbook() {
   const workbook = XLSX.readFile(MAJORS_FILE);
